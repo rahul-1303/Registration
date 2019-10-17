@@ -22,7 +22,6 @@ public class Applicationform3 extends Applet
         String cast[]={"---Select----","Genral","OBC","SC","ST"};
         Gn=new JComboBox(gender);
         cat=new JComboBox(cast);
-        frame.setTitle("myclas");
         
         l1=new JLabel("Enter Applicant name");
         l2=new JLabel("Enter phone number");
